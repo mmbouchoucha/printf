@@ -7,7 +7,7 @@
 /**
  * struct stdout_ - struct
  * @sym: char
- * @pfunc: p function
+ * @pfunc: p func
  */
 typedef struct stdout_
 {
