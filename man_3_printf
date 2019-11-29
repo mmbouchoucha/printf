@@ -1,0 +1,49 @@
+.\" Manpage for _printf.
+.TH man 8 "24 November 2019" "1.0" "_printf man page"
+.SH NAME
+_printf \- format and print data.
+.SH SYNOPSIS
+_printf [INPUT STREAM]
+.SH DESCRIPTION
+Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:
+.SH OPTIONS
+The _printf takes the following options to format the output:
+.TP
+.B -%c
+Prints a char into the INPUT STREAM.
+.TP
+.B -%s
+Prints a str into the INPUT STREAM.
+.TP
+.B -%i
+Prints an int into the INPUT STREAM.
+.TP
+.B -%d
+Prints an double into the INPUT STREAM.
+.TP
+.B -%u
+Prints an unsigned int into the INPUT STREAM.
+.TP
+.B -%o
+Prints to octal into the INPUT STREAM.
+.TP
+.B -%x
+Prints mini-hexal into the INPUT STREAM.
+.TP
+.B -%X
+Prints to hexal into the INPUT STREAM.
+.TP
+.B -%b
+Prints to binary into the INPUT STREAM.
+.TP
+.B -%R
+Prints to rot13 into the INPUT STREAM.
+.TP
+.B -%r
+Prints to reverse a str into the INPUT STREAM.
+.SH SEE ALSO
+.SH SEE ALSO
+useradd(8), passwd(5), _printf.debian(8)
+
+.SH AUTHOR
+Mohamed Mehdi Bouchoucha
