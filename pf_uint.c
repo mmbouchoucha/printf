@@ -8,7 +8,7 @@
  * Return: num length.
  * On error, Return -1
  */
-int p_uint(va_list *args)
+int pf_uint(va_list *args)
 {
 int length = 0;
 unsigned int value = va_arg(*args, unsigned int);
